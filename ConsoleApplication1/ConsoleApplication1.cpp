@@ -11,7 +11,7 @@ int main()
 	int t = (int)time(nullptr);
 	int answer = t % 10;
 	bool gameClear = false;
-	while (!gameClear)
+	for (!gameClear) // whileもある
 	{
 		printf("ゲーム開始！\n数字を入力してください!-----\n");
 
